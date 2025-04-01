@@ -21,6 +21,7 @@ Why use `/usr/bin/env python3` instead of a direct path like `/usr/bin/python3`?
 In summary, the shebang line makes the script directly executable and ensures that the correct Python 3 interpreter is used, regardless of its specific location on the system.
 """
 
+
 import sys
 from sys import path  # Import path from sys
 
